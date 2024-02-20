@@ -1,0 +1,102 @@
+<!-- gameplan: code first, understand later-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- this stuff is more metadata -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- actual content, declarations of class, later developed by the js and (mostly) css files -->
+  <nav class="navbar">
+    <!-- for navigation to other pages-->
+    <div class="navbar__container">
+      <a href="/" id="navbar__logo">PureTyres</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="/" class="navbar__links">Home</a>
+        </li>
+        <li class="navbar__item">
+          <a href="/" class="navbar__links">About</a>
+        </li>
+        <li class="navbar__item">
+          <a href="/" class="navbar__links">Meet the staff</a>
+        </li>
+        <li class="navbar__btn">
+          <a href="/" class="button">Memberships</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--main content of the page-->
+  <div class="main">
+    <div class="main__container">
+      <div class="main__content">
+        <h1>Ultimate hardcore</h1>
+        <h2>Fitness</h2>
+        <p>The best there is</p>
+        <button class="main__btn"><a href="/">Join us</a></button>
+      </div>
+      <div class="main__img--container">
+        <img src="Images/mainback.svg" alt="pic" id="main__img">
+      </div>
+    </div>
+  </div>
+
+  <div class="services">
+    <h1>The best part? It's all made from tyres</h1>
+    <div class="services__container">
+      <div class="services__card">
+        <h2>Get jacked</h2>
+        <p>Cbum works out here</p>
+        <button>Bench with the best</button>
+      </div>
+      <div class="services__card">
+        <h2>Stay fat or stay hard</h2>
+        <p>Get abs and more</p>
+        <button>Start ultra cardio</button>
+      </div>
+      <div class="services__card">
+        <h2>Improving the environment</h2>
+        <p>Recycling both fat and tyres</p>
+        <button>Help us</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="red" position="bottom-right"></script>
+
+  <!-- links -->
+  <div class="footer__container">
+    <div class="footer__links">
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>About us</h2>
+          <a href="/">How it works</a>
+          <a href="/">Equipment</a>
+          <a href="/">Side facilities</a>
+          <a href="/">Code of conduct</a>
+        </div>
+        <div class="footer__link--items">
+          <h2>Contact us</h2>
+          <a href="/">Support us</a>
+          <a href="/">Email</a>
+          <a href="/">Messages</a>
+          <a href="/">Media</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
